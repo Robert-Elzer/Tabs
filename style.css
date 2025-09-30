@@ -1,0 +1,47 @@
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.tabLink {
+    background-color: black;
+    color: white;
+    float: left;
+    width: 25%;
+    border: none;
+    padding: 14px 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+.tabLink:hover {
+    background-color: blue;
+}
+
+.tabContent {
+    height: 100%;
+    color: white;
+    display: none;
+    padding: 500px 20px;
+    
+}
+
+#firstTab {
+    background-color: red;
+}
+
+#secondTab {
+    background-color: Navy;
+}
+
+#thirdTab {
+    background-color: red;
+}
+
+#fourthTab {
+    background-color: navy;
+}
+
+h2 {
+    margin-top: -350px;
+}
